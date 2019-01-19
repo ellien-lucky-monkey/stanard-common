@@ -1,6 +1,5 @@
 package com.standard.common.configuration;
 
-//import com.pingan.haofang.gov.sm.account.interceptor.AuthorizationInterceptor;
 
 import com.standard.common.interceptor.SessionInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,9 +20,6 @@ public class WebConfiguration extends WebMvcConfigurationSupport {
     private SessionInterceptor sessionInterceptor;
 
 
-//    @Autowired
-//    private AuthorizationInterceptor authorizationInterceptor;
-//
     /**
      * 拦截器配置
      *

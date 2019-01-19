@@ -96,11 +96,11 @@
             <version>2.9.2</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.pingan.haofang.tenant.erp</groupId>
-            <artifactId>tenant-module</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.pingan.haofang.tenant.erp</groupId>-->
+            <!--<artifactId>tenant-module</artifactId>-->
+            <!--<version>1.0.0-SNAPSHOT</version>-->
+        <!--</dependency>-->
     </dependencies>
 
     <dependencyManagement>
