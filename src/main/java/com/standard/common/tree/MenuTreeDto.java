@@ -1,4 +1,4 @@
-package com.standard.common.utils;
+package com.standard.common.tree;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
