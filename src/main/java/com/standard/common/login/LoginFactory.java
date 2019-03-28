@@ -13,12 +13,15 @@ public class LoginFactory {
     @Autowired
     private LoginStrategyProperties loginStrategyProperties;
 
-    public LoginContext getContext(){
+    public LoginContext getContext() {
         Integer type = loginStrategyProperties.getType();
-        switch (type){
-            case 1 : return new LoginContext(new UsernamePasswordStrategy());
-            case 2 : return new LoginContext(new EmailPasswordStrategy());
-            default:break;
+        switch (type) {
+            case 1:
+                return new LoginContext(new UsernamePasswordStrategy());
+            case 2:
+                return new LoginContext(new EmailPasswordStrategy());
+            default:
+                break;
         }
         return null;
     }

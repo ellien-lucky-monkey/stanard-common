@@ -1,7 +1,6 @@
 package com.standard.common.login;
 
 import com.standard.common.domain.User;
-import org.springframework.stereotype.Component;
 
 /**
  * @author Jiangkui
